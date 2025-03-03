@@ -10,7 +10,7 @@ app.use(express.json());
 
 //mongodb config
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://rimbo:alo123@doancoso.tvkcj.mongodb.net/?retryWrites=true&w=majority&tls=true&tlsAllowInvalidCertificates=true");
+mongoose.connect("mongodb+srv://rimbo:alo123@doancoso.tvkcj.mongodb.net/doancoso?retryWrites=true&w=majority&tls=true&tlsAllowInvalidCertificates=true");
 
 //create account api
 const registerRoute = require("./routes/register.route");

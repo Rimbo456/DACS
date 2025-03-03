@@ -59,7 +59,7 @@ const Cart = () => {
       }
     };
     getCartList();
-    const socket = io("http://localhost:3000");
+    const socket = io("https://dacs-sany.onrender.com");
     socket.on("cartUpdated", (data) => {
       getCartList();
     });

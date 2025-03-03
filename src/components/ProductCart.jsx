@@ -54,7 +54,7 @@ const ProductCart = ({ product, cnt }) => {
         <MdDelete onClick={removeCart} size={30} className="cursor-pointer" />
         <img
           className="w-1/2"
-          src={`http://localhost:5173/src/assets/Product/` + product.image[0]}
+          src={`https://joyful-syrniki-c66fec.netlify.app/src/assets/Product/` + product.image[0]}
           alt=""
         />
         <Link to={`/detail/${product._id}`}>

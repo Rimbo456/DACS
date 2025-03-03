@@ -69,7 +69,7 @@ const ProductCard = ({ product, size }) => {
       <Link to={`/detail/${product._id}`}>
         <img
           className="w-full h-64 object-cover"
-          src={`http://localhost:5173/src/assets/Product/` + product.image[0]}
+          src={`https://joyful-syrniki-c66fec.netlify.app/src/assets/Product/` + product.image[0]}
           alt={product.nameProduct}
         />
       </Link>
